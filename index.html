@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tablas sencillas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+	<h1>UTILIZACION DE TABLAS SENCILLAS</h1>
+	<table border="5" cellspacing="0" cellpadding="10">
+		<tr>
+			<td>producto</td>
+			<td>cantidad</td>
+			<td>prec/unid</td>
+			<td>total</td>
+		</tr>
+		<tr>
+			<td>marcador</td>
+			<td>200</td>
+			<td>30</td>
+			<td>600</td>
+		</tr>
+		<tr>
+			<td>esferos</td>
+			<td>400</td>
+			<td>50</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>cuadernos</td>
+			<td>1000</td>
+			<td>2000</td>
+			<td>3000</td>
+		</tr>
+	</table>
+	<table border="10" cellpadding="50">
+		<tr>
+			<th>adrian</th>
+			<th>stuar</th>
+			<th>castaño</th>
+			<th>bernal</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<h2>COMBINAR COLUMNAS</h2>
+	<table border="5" cellspacing="0" cellpadding="10">
+		<tr>
+			<td>producto</td>
+			<td>cantidad</td>
+			<td>prec/unid</td>
+			<td>total</td>
+		</tr>
+		<tr>
+			<td>marcador</td>
+			<td colspan="2">200</td>
+			<td>600</td>
+		</tr>
+		<tr>
+			<td colspan="2">esferos</td>
+			
+			<td colspan="2">50</td>
+			
+		</tr>
+		<tr>
+			<td colspan="4">cuadernos</td>
+			
+		</tr>
+	</table>
+
+	<h3>COMBINANDO FILAS</h3>
+	<table border="5" cellspacing="0" cellpadding="10">
+		<tr>
+			<td rowspan="4">producto</td>
+			<td>cantidad</td>
+			<td>prec/unid</td>
+			<td rowspan="4">total</td>
+		</tr>
+		<tr>
+			
+			<td rowspan="2">200</td>
+			<td>30</td>
+			
+		</tr>
+		<tr>
+			
+			
+			<td>50</td>
+			
+		</tr>
+		<tr>
+			
+			<td>1000</td>
+			<td>2000</td>
+			
+		</tr>
+
+
+
+
+
+
+
+
+
+<table border="1" cellspacing="3" cellpadding="10px">
+	<caption>Tabla de edades</caption>
+
+	<tr>
+		<th scope="col">columna 1</th>
+		<th scope="col" colspan="2">columna 2 3</th>
+		
+		<th scope="col" colspan="5">columna 4</th>
+		<th scope="col">columna 5</th>
+	</tr>
+	<tr>
+		<th scope="row"> columna 1</th>
+		<td>columna 2</td>
+		<td>columna 3</td>
+
+		<td>columna 5</td>
+
+	</tr>
+
+<tr>
+	<th scope="row"></th>
+	<td>columna 2</td>
+	<td>columna 3</td>
+
+	<td>columna 5</td>
+
+</tr>
+
+<tr>
+	<th scope="row" rowspan="2"></th>
+<td>columna 2</td>
+<td>columna 3</td>
+
+<td>columna 5</td>
+
+</tr>
+
+<tr>
+	<td scope="row">columna 2</td>
+	<td>columna 3</td>
+
+	<td>columna 5</td>
+
+</tr>
+
+</table>
+
+<table class="tabla2">
+	<caption>tabla de seudoclases</caption>
+<tr>
+	<th scope="col">columna 1</th>
+	<th scope="col">columna 2</th>
+	<th scope="col">columna 3</th>
+	<th scope="col">columna 4</th>
+	<th scope="col">columna 5</th>
+</tr>
+
+<tr>
+	<th scope="row">columna 1</th>
+	<td >columna 2</td>
+	<td >columna 3</td>
+	<td >columna 4</td>
+	<td >columna 5</td>
+</tr>
+
+<tr>
+	<th scope="row">columna 1</th>
+	<td >columna 2</td>
+	<td >columna 3</td>
+	<td >columna 4</td>
+	<td >columna 5</td>
+
+</tr>
+
+<tr>
+	<th scope="row">columna 1</th>
+	<td >columna 2</td>
+	<td >columna 3</td>
+	<td >columna 4</td>
+	<td >columna 5</td>
+
+</tr>
+
+<tr>
+	<th scope="row">columna 1</th>
+	<td >columna 2</td>
+	<td >columna 3</td>
+	<td >columna 4</td>
+	<td >columna 5</td>
+
+</tr>
+
+</table>
+
+<table class="tabla3">
+	<caption> tabla con seudoclases</caption>
+	<tr>
+		<td>columna 1</td>
+		<td>columna 2</td>
+		<td>columna 3</td>
+	</tr>
+<tr>
+		<td>columna 1</td>
+		<td>columna 2</td>
+		<td>columna 3</td>
+	</tr>
+	<tr>
+		<td>columna 1</td>
+		<td>columna 2</td>
+		<td>columna 3</td>
+	</tr>
+
+</table>
+
+
+<table class="tabla4">
+	<caption>tabla con seudoclases hover</caption>
+<tr>
+	<th>titulo fila 1</th>
+	<th>titulo columna 2</th>
+	<th>titulo columna 3</th>
+	<th>titulo columna 4</th>
+</tr>
+
+<tr>
+	<th>titulo fila 2</th>
+	<th>columna 2</th>
+	<th>columna 3</th>
+	<th>columna 4</th>
+</tr>
+
+<tr>
+	<th>titulo fila 3</th>
+	<th>columna 2</th>
+	<th>columna 3</th>
+	<th>columna 4</th>
+</tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
